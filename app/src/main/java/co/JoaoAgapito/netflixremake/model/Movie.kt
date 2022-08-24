@@ -1,4 +1,4 @@
-package co.tiagoaguiar.netflixremake.model
+package co.JoaoAgapito.netflixremake.model
 
 import androidx.annotation.DrawableRes
 

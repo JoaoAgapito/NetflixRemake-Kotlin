@@ -1,4 +1,4 @@
-package co.tiagoaguiar.netflixremake
+package co.JoaoAgapito.netflixremake
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import co.tiagoaguiar.netflixremake.model.Category
+import co.JoaoAgapito.netflixremake.model.Category
+
 
 class CategoryAdapter (private  val categories: List<Category>): RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder>() {
 
@@ -32,7 +33,7 @@ class CategoryAdapter (private  val categories: List<Category>): RecyclerView.Ad
             val rvCategory: RecyclerView = itemView.findViewById(R.id.rv_category)
 
             rvCategory.layoutManager = LinearLayoutManager(itemView.context, RecyclerView.HORIZONTAL, false)
-            rvCategory.adapter = MovieAdapter(category.movies)
+            rvCategory.adapter = MovieAdapter(category.movies, R.layout.movie_item)
         }
 
     }

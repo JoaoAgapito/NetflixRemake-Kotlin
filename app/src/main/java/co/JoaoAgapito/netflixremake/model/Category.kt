@@ -1,4 +1,4 @@
-package co.tiagoaguiar.netflixremake.model
+package co.JoaoAgapito.netflixremake.model
 
 
 data class Category(val name: String, val movies: List <Movie>)

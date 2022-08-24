@@ -1,11 +1,11 @@
-package co.tiagoaguiar.netflixremake
+package co.JoaoAgapito.netflixremake
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import co.tiagoaguiar.netflixremake.model.Category
-import co.tiagoaguiar.netflixremake.model.Movie
+import co.JoaoAgapito.netflixremake.model.Category
+import co.JoaoAgapito.netflixremake.model.Movie
 
 class MainActivity : AppCompatActivity() {
 
